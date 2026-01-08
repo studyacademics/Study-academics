@@ -72,19 +72,34 @@
   </div>
 </section><section id="contact">
   <h2>Student Admission Form</h2>
-  <form style="max-width:600px;margin:auto;background:#fff;padding:30px;border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,.08);">
-    <input type="text" placeholder="Student Name" required style="width:100%;padding:12px;margin-bottom:15px;" />
-    <input type="email" placeholder="Email" required style="width:100%;padding:12px;margin-bottom:15px;" />
-    <input type="tel" placeholder="Mobile Number" required style="width:100%;padding:12px;margin-bottom:15px;" />
-    <select required style="width:100%;padding:12px;margin-bottom:15px;">
+  <section id="admission-form">
+  <h2>Student Admission Form</h2>
+
+  <form action="https://formsubmit.co/studyacademics00@gmail.com" method="POST">
+
+    <!-- FormSubmit settings -->
+    <input type="hidden" name="_subject" value="New Admission Form - Study Academics">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+
+    <input type="text" name="Student Name" placeholder="Student Name" required>
+
+    <input type="email" name="Email" placeholder="Email Address" required>
+
+    <input type="tel" name="Mobile Number" placeholder="Mobile Number" required>
+
+    <select name="Class" required>
       <option value="">Select Class</option>
       <option>Class 9</option>
       <option>Class 10</option>
       <option>Class 11</option>
       <option>Class 12</option>
     </select>
-    <button type="submit" style="width:100%;padding:14px;background:#1e40af;color:white;border:none;border-radius:30px;font-size:1rem;">Submit</button>
+
+    <button type="submit">Submit Admission Form</button>
+
   </form>
+</section>
 </section><section id="online-class">
   <h2>Online Classes</h2>
   <p style="text-align:center;max-width:800px;margin:auto;">Live & recorded online classes with expert teaching, notes, and doubt-solving support  https://youtube.com/@studyacademics_1?si=4DAASPSl6AQ0MCLh .</p>
